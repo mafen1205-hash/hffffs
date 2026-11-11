@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Конвертер валют</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Конвертер валют</h1>
+
+  <input id="amount" type="text" inputmode="decimal" value="1" autofocus placeholder="Сумма">
+
+  <div class="row">
+    <select id="from"></select>
+    <button id="swap" title="Поменять местами">⇄</button>
+    <select id="to"></select>
+  </div>
+
+  <div id="result" class="result">…</div>
+  <div id="rate" class="muted"></div>
+  <div id="status" class="muted"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

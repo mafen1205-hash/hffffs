@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Конвертер валют",
+  "version": "1.0.0",
+  "description": "Быстрый подсчёт и конвертация валют по актуальным курсам.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Конвертер валют"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://open.er-api.com/*"]
+}
